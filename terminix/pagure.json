@@ -1,0 +1,38 @@
+{
+    "child": {
+        "child1": {
+            "directory": "\/home\/clem\/Project\/Python\/flask\/pagure",
+            "height": 659,
+            "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+            "type": "Terminal",
+            "width": 683
+        },
+        "child2": {
+            "child1": {
+                "directory": "\/home\/clem\/Project\/Python\/flask\/pagure",
+                "height": 322,
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "type": "Terminal",
+                "width": 682
+            },
+            "child2": {
+                "directory": "\/home\/clem\/tmp\/Foobar",
+                "height": 336,
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "type": "Terminal",
+                "width": 682
+            },
+            "orientation": 1,
+            "position": 48,
+            "type": "Paned"
+        },
+        "orientation": 0,
+        "position": 50,
+        "type": "Paned"
+    },
+    "height": 659,
+    "name": "pagure",
+    "type": "Session",
+    "version": "1.0",
+    "width": 1366
+}
