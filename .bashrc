@@ -45,4 +45,15 @@ PS1="$LIGHT_GREEN[\u@\h $RED\W]$BLUE\$(parse_git_branch) $DEFAULT\$"
 
 proml
 
-alias la='ls -artl'
+source /usr/bin/virtualenvwrapper.sh 
+alias ..='cd ..'
+alias la='ls -lA'
+alias vim='/home/clem/bin/vim'
+
+# Programing
+alias py='python'
+alias py3='python3'
+
+echo -e ""
+echo -ne "Today is ";date
+echo "";

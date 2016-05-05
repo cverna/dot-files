@@ -1,10 +1,14 @@
 [user]
 	name = Clement Verna
-	email = cverna at tutanota dot com
+	email = cverna@tutanota.com
 [core]
-	editor = vim
+    editor = vim
+    whitespace = trailing-space,space-before-tab
+[apply]
+    whitespace = fix
 [color]
-	status = auto
+    ui = true
+    status = auto
 	branch = auto
 	interactive = auto
 	diff = auto
