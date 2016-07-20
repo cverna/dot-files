@@ -17,4 +17,4 @@
 	ci = commit
 	st = status
 	br = branch
-	ll = log --oneline --decorate --all --graph
+	ll = log --graph --pretty=oneline --decorate --abbrev-commit
