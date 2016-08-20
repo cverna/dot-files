@@ -39,7 +39,7 @@ function proml {
 
   local     DEFAULT="\[\033[0m\]"
 
-PS1="$LIGHT_GREEN[\u@\h $RED\W]$BLUE\$(parse_git_branch) $DEFAULT\$"
+PS1="\[$RED\w\]\n $LIGHT_GREEN[\u@\h] $BLUE\$(parse_git_branch) $DEFAULT\$ "
 
 }
 
@@ -52,4 +52,3 @@ alias la='ls -lA'
 # Programing
 alias py='python'
 alias py3='python3'
-
