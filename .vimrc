@@ -32,6 +32,6 @@ set expandtab
 
 "" key mapping
 :nmap <c-w> :w<CR>
-:imap <c-w> <ESC>:w<CR>a
+:imap <c-w> <ESC>:w<CR>
 "" display line number
 :set nu
