@@ -33,7 +33,7 @@ set tabstop=4
 set expandtab
 
 "" key mapping
-:nmap <c-w> :w<CR>
-:imap <c-w> <ESC>:w<CR>
+:nmap <Leader>s :w<CR>
+:imap <Leader>s <ESC>:w<CR>
 "" display line number
 :set nu
