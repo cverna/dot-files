@@ -3,16 +3,16 @@
 execute pathogen#infect()
 
 "Syntastic Plugin settings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_python_checkers = ['flake8']
-
-let g:syntastic_always_populate_loc_list = 1
-"let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+"
+"let g:syntastic_python_checkers = ['flake8']
+"
+"let g:syntastic_always_populate_loc_list = 1
+""let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
 
 "Solarized theme
 syntax enable
@@ -36,4 +36,11 @@ set expandtab
 :nmap <Leader>s :w<CR>
 :imap <Leader>s <ESC>:w<CR>
 "" display line number
-:set nu
+"":set nu
+
+""python powerline
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup
+set laststatus=2
+set t_Co=256
